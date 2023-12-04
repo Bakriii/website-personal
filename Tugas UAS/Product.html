@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cake Bakery</title>
+    <link rel="shortcut icon" type="image" href="Cake-removebg-preview.png">
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!--bootstrap link-->
+    <!--fonts links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+    <!--fonts links-->
+    <!--icons links-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!--icons links-->
+</head>
+<body>
+    <div class="all-content">
+        <!--navbar-->
+        <nav class="navbar navbar-expand-md" id="navbar">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#" id="logo"><img src="Cake-removebg-preview.png" alt="" width="50px">Cake Bakery</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span><img src="./image/menu.png" alt="" width="30px"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="uas.html">Home</a>
+                </li>
+                <!--dropdown-->
+                <li class="nav-item dropdown">
+                    <a href="Product.html" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+                        Category
+                    </a>
+                    <div class="dropdown-menu">
+                        <a href="BC.html" class="dropdown-item">Birthday & Partys Cake</a>
+                        <a href="SC.html" class="dropdown-item">Slice Cake</a>
+                        <a href="CC.html" class="dropdown-item">Cup Cake</a>
+                    </div>
+                </li>
+                <!--dropdown-->
+                <li class="nav-item">
+                  <a class="nav-link" href="Product.html">Product</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="icons">
+                <img src="person-removebg-preview.png" alt="" width="25px">
+                <img src="heart-removebg-preview.png" alt="" width="20px">
+                <img src="keranjang-removebg-preview.png" alt="" width="50px">
+            </div>
+          </nav>
+        <!--navbar end-->
+
+        <!--home selection-->
+        <div class="home">
+            <div class="content">
+                <h3>Delicious
+                    <br>Cakes Bakery
+                </h3>
+                <h2>Category <span class="changecontent"></span></h2>
+                <p>Various kinds of cakes are available
+                    <br>Guaranteed you'll be addicted to it again and again
+                </p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+            <div class="img">
+               <img src="background-removebg-preview.png" alt="">
+            </div>
+        </div>
+        <!--home selection end-->
+
+      <!-- top cards -->
+      <div class="container" id="box">
+        <div class="row">
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="Almond-Cream-Cake-FB-IG-2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="coklat2.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="coklat3.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- top cards end -->
+
+      <!-- banner -->
+        <div class="banner">
+          <div class="content">
+              <h3>Delicious Cake</h3>
+              <h2>UPTO 50% OFF</h2>
+              <P>don't run out</P>
+              <div id="btnorder"><button>Order Now</button></div>
+          </div>
+          <div class="img">
+            <img src="cake1-removebg-preview.png" alt="">
+          </div>
+        </div>
+      <!-- banner end -->
+
+      <!-- product cards -->
+      <section id="product-cards">
+        <div class="container">
+          <h1>CAKES</h1>
+          <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="J_Petite_53-1000x999-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Cream Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Cream Cake adalah pencuci mulut yang lezat yang memukau indera dengan karakteristiknya yang kaya dan memanjakan. Makanan manis ini adalah simfoni rasa dan tekstur, menyatukan lapisan kue yang lembut dan lembut dengan krim yang lembut dan lembut.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="cake_Chocolate_01-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Choco Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Choco Cake adalah masterpiece dari dunia pencuci mulut yang memikat dengan cita rasa cokelat yang menggoda. Dengan lapisan-lapisan kue yang lembut dan ganache cokelat yang melimpah, kue ini menghadirkan pengalaman kenikmatan yang tak terlupakan.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="Finished-photo-slice-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Slice Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Slice cake, dengan potonganannya yang mengundang, adalah keajaiban rasa yang disajikan dalam bentuk yang memanjakan. Dari lapisan kue yang lembut hingga hiasan yang menggoda, setiap irisan adalah persembahan cita rasa yang lezat.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="Super-Enticing-Fruit-Cake-11-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Fruit Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                  </div>
+                  <p>Fruit cake adalah sebuah keajaiban rasa yang mempersembahkan perpaduan lezat antara kue yang kaya dan aneka buah yang segar. Dengan aroma yang menggoda dan cita rasa yang khas, fruit cake menjadi pilihan istimewa untuk berbagai acara atau sekadar menikmati momen santai.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="AGS_0510_min-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Brown Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Brown Cake adalah sejenis kue yang mendapat namanya dari warna cokelat yang khas. Kue ini terkenal karena rasa kaya dan aroma menggoda cokelat yang melimpah. Biasanya, Brown Cake memiliki tekstur yang lembut dan kenyal.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="026883000_1595655224-gourmet-snack-cake-dessert-red_1203-5875-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Slice Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Slice cake, dengan potonganannya yang mengundang, adalah keajaiban rasa yang disajikan dalam bentuk yang memanjakan. Dari lapisan kue yang lembut hingga hiasan yang menggoda, setiap irisan adalah persembahan cita rasa yang lezat.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="AGS_0525_min-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Fruit Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                  </div>
+                  <p>Fruit cake adalah sebuah keajaiban rasa yang mempersembahkan perpaduan lezat antara kue yang kaya dan aneka buah yang segar. Dengan aroma yang menggoda dan cita rasa yang khas, fruit cake menjadi pilihan istimewa untuk berbagai acara atau sekadar menikmati momen santai.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="Chocolate_Fudge_Kue_Ulang_Tahun_Birthday_Cake_Diameter_16_cm-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Choco Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Choco Cake adalah masterpiece dari dunia pencuci mulut yang memikat dengan cita rasa cokelat yang menggoda. Dengan lapisan-lapisan kue yang lembut dan ganache cokelat yang melimpah, kue ini menghadirkan pengalaman kenikmatan yang tak terlupakan.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <!-- product cards end -->
+
+      <section id="product-cards">
+        <div class="container">
+          <h1>BIRTHDAY CAKE</h1>
+          <div class="row" style="margin-top: 50px;">
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="6114126_b659f2e5_5513_4c64_a84a_ce646a2fc1b1_638_638-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Birthday Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                  </div>
+                  <p>Birthday Cake adalah kue spesial yang disiapkan dan dihiasi khusus untuk merayakan ulang tahun seseorang. Kue ini sering kali menjadi sorotan utama di pesta ulang tahun dan memiliki karakteristik yang mencolok dan meriah.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="cupcake-with-cherry-top-stars-top_837431-178-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Cup Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Cupcake, atau yang sering disebut kue dalam cup, adalah kue kecil yang dikemas dalam cup kecil, biasanya berukuran satu porsi. Cupcake memiliki ciri khas yang unik dan menggemaskan, membuatnya populer sebagai hidangan penyajian pribadi atau dalam acara-acara khusus.</p>
+                  <h6>Rp50.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="c99f1f38830ded4f07f09fcbcdb4d600-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Birthday Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star "></i>
+                  </div>
+                  <p>Birthday Cake adalah kue spesial yang disiapkan dan dihiasi khusus untuk merayakan ulang tahun seseorang. Kue ini sering kali menjadi sorotan utama di pesta ulang tahun dan memiliki karakteristik yang mencolok dan meriah.</p>
+                  <h6>Rp100.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+              <div class="card">
+                <div class="overlay">
+                  <button type="button" class="btn btn-secondary" title="Quick View"><img src="eye-icon-vector-illustration-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to wishlist"><img src="heart-removebg-preview.png" alt="" width="30px"></button>
+                  <button type="button" class="btn btn-secondary" title="Add to cart"><img src="keranjang-removebg-preview.png" alt="" width="30px"></button>
+                </div>
+                <img src="delicia-de-cupcake-elevado_1018893-11-removebg-preview.png" alt="">
+                <div class="card-body">
+                  <h3>Cup Cake</h3>
+                  <div class="star">
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                    <i class="bx bxs-star checked"></i>
+                  </div>
+                  <p>Cupcake, atau yang sering disebut kue dalam cup, adalah kue kecil yang dikemas dalam cup kecil, biasanya berukuran satu porsi. Cupcake memiliki ciri khas yang unik dan menggemaskan, membuatnya populer sebagai hidangan penyajian pribadi atau dalam acara-acara khusus.</p>
+                  <h6>Rp50.000 <span><button>Add Cart</button></span></h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <!-- product cards end -->
+
+        <!-- contact -->
+        <div class="container" id="contact">
+          <h1>CONTACT US</h1>
+          <div class="row">
+            <div class="col-md-4 py-1 py-md-0">
+              <div class="form-group">
+                <input type="text" class="form-control" id="usr" placeholder="Name">
+              </div>
+            </div>
+            <div class="col-md-4 py-1 py-md-0">
+              <div class="form-group">
+                <input type="email" class="form-control" id="eml" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-md-4 py-1 py-md-0">
+              <div class="form-group">
+                <input type="number" class="form-control" id="phn" placeholder="Phone">
+              </div>
+            </div>
+            
+          </div>
+          <div class="form-group">
+            <textarea class="form-control" rows="5" id="comment" placeholder="Message"></textarea>
+          </div>
+          <div id="messagebtn"><a href="http://wa.me/6289695479397"><button>Send Message</button></a></div>
+         </div>
+         <!-- contact end -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <h1 class="text-center">Cake Bakery</h1>
+            <p class="text-center">online shop of various kinds of cakes</p>
+            <div class="icons text-center">
+              <a href="https://www.facebook.com/profile.php?id=61551806297484&mibextid=ZbWKwL"><i class="bx bxl-facebook"></i></a>
+              <a href="https://youtube.com/@bakriakki5850?si=xr4Zp814VU7pxmEI"><i class="bx bxl-youtube"></i></a>
+              <a href="https://instagram.com/bakriakki106_?igshid=NzZlODBkYWE4Ng=="><i class="bx bxl-instagram"></i></a>
+            </div>
+            <div class="copyright text-center">
+              &copy;Copyright <strong>Cake</strong> .All Rights Reserved
+            </div>
+            <div class="credite text-center">
+              Designed By <a href="#"><span>Bakri</span></a>
+            </div>
+           </footer>
+           <!-- footer -->
+    
+           <a href="uas.html" class="arrow"><i><img src="cupcake-with-cherry-top-stars-top_837431-178-removebg-preview.png" alt="" width="50px"></i></a>
+    
+        </div>
+        <button id="button" class="floating-button"><a href="https://wa.me/6289695479397"><i class="bx bxl-whatsapp"></i></a></button>
+        <script src="uas.js"></script>
+        <footer>
+          <p>&copy; UAS 2023 WEB</p>
+        </footer>
+    </body>
+    </html>
